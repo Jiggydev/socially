@@ -14,7 +14,7 @@
 }
 
 body{
-    background: #efefef;
+    background: #e5e4e4;
 }
 
 
@@ -22,13 +22,16 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(79, 60, 228);
-    padding: 5px 5%;
+    background-color: rgb(250, 250, 250);
+    padding: 16px 1%;
+    margin: 20px 15%;
+    border-radius: 20px;
 }
 
 .logo{
-    width: 160px;
+    width: 50px;
     margin-right: 45px;
+    border-radius: 50%;
 }
 
 .nav-left, .nav-right{
@@ -39,9 +42,53 @@ nav{
 .nav-left ul li{
     list-style: none;
     display: inline-block;
+    
 }
 
 .nav-left ul li img{
-    width: 28px;
+    width: 24px;
     margin: 0 15px;
+}
+
+.nav-user-icon img{
+    width: 40px;
+    border-radius: 35%;
+    cursor: pointer;
+}
+
+.nav-user-icon{
+    margin-left: 30px;
+}
+
+.search-bar{
+    background: #efefef;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 3px 15px;
+}
+
+.search-bar img{
+    width: 20px;
+}
+
+.search-bar input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+.online{
+    position: relative;
+}
+
+.online ::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
 }
