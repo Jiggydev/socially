@@ -446,3 +446,56 @@ width: fit-content;
     right: 0%;
 
 }
+
+
+.user-profile a{
+    font-size: 13px;
+    color: #1876f2;
+    text-decoration: none;
+}
+
+
+.settings-menu{
+    padding: 20px;
+}
+
+
+
+.profile-settings hr{
+    border: 0 ;
+    height: 1px;
+    background: #e7e7e7;
+    margin: 15px 0;
+}
+
+.settings-links a{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 13px;
+}
+
+
+.settings-links{
+     display: flex;
+     align-items: center;
+     margin: 15px 0;
+}
+
+
+
+.settings-links .settings-icon{
+    width: 28px;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+
+
+.settings-links .arrow{
+    width: 24px;
+    color: #626262;
+}
