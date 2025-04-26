@@ -132,6 +132,7 @@ nav{
     height: auto;
     background: #fefefe;
     border-radius: 16px;
+    padding-bottom: 16px;
 }
 
 
@@ -408,4 +409,40 @@ width: fit-content;
 
 .post-row a{
     color: #9a9a9a;
+}
+
+.load-button{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 8px 20px;
+    border: 1px solid #9a9a9a;
+    color: #0c0c0c;
+    background-color: #a9f9d1;
+    border-radius: 8px;
+}
+
+
+.footer{
+   text-align: center;
+   color: #9a9a9a;
+   padding: 10px 0 20px;
+   font-size: 16px;
+   margin-left: 350px;
+
+}
+
+
+.profile-settings{
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    top: 108%;
+    right: 0%;
+
 }
