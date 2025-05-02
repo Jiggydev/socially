@@ -14,8 +14,28 @@
     box-sizing: border-box;
 }
 
+
+
+:root{
+    --body-color: #e5e4e4;
+    --nav-color: #ff4d4d;
+    --bg--color: #fefefe;
+    --post--container: #e2947c30;
+}
+
+.dark-mode{
+
+    --body-color: #0a0a0a;
+    --nav-color: #ff4d4d;
+    --bg--color: #1e1e1e;
+    --post-container: #404040;
+
+}
+
+
 body{
-    background: #e5e4e4;
+    background: var(--body-color);
+    transition: background 0.3s;
 }
 
 
@@ -23,7 +43,7 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #ff4d4d;
+    background-color: var(--nav-color);
     padding: 12px 1%;
     margin: 20px 10%;
     border-radius: 20px;
@@ -118,7 +138,7 @@ nav{
     position: sticky;
     top: 70px;
     align-self: flex-start;
-    background: #fefefe;
+    background: var(--bg--color);
    padding-top: 30px;
    padding-left: 16px;
    border-radius: 16px;
@@ -130,7 +150,7 @@ nav{
 .main-content{
     flex-basis: 74%;
     height: auto;
-    background: #fefefe;
+    background: var(--bg--color );
     border-radius: 16px;
     padding-bottom: 16px;
 }
@@ -257,7 +277,7 @@ width: fit-content;
 
 .write-post-container{
     width: 100;
-    background-color:#e2947c30;
+    background-color:var(--post--container);
     border-radius: 12px;
     padding: 20px;
     color: #626262;
@@ -331,7 +351,7 @@ width: fit-content;
 
 .post-container{
     width: 100;
-    background-color:#e2947c30;
+    background-color:var(--post--container);
     border-radius: 12px;
     padding: 20px;
     color: #626262;
@@ -428,7 +448,7 @@ width: fit-content;
    color: #9a9a9a;
    padding: 10px 0 20px;
    font-size: 16px;
-   margin-left: 350px;
+   margin-left: 300px;
 
 }
 
@@ -437,7 +457,7 @@ width: fit-content;
     position: absolute;
     width: 90%;
     max-width: 350px;
-    background: #fff;
+    background: var(--bg--color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     overflow: hidden;
@@ -537,3 +557,25 @@ width: fit-content;
 
 
 
+
+/* profile page */
+
+
+.profile-container{
+    padding: 10px 10%;
+    color: #626262;
+}
+
+
+.cover-img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 14px;
+
+}
+
+
+.profile-details{
+    background-color: #ffff;
+    padding: 20px
+}
